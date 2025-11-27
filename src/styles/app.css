@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+.name-font {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.text-normal {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+.nav-bt{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.nav-bt:hover{
+    color: #55c6eb;
+    transition: color 0.3s ease;
+    border:none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: rgb(37, 43, 45);
+}
+
+@import "tailwindcss";

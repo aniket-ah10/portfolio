@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+.about-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.about-desc {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    line-height:1.8;
+    text-align: justify;
+}
+.about-catchy{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.about-bt{
+    border:#42A5F5 2px solid;
+    padding: 5px 10px 10px 10px;
+    margin-bottom: 10px;
+    background-color: #030712;
+    text-align: center;
+    color:white;
+    font-weight: 600;
+    width: 75%;
+}
+.about-bt:hover{
+    color:#030712;
+    background-color: white;
+}
+
+.about-icon{
+    background-color: white;
+}
+
+@import "tailwindcss";
