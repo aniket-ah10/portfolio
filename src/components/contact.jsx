@@ -3,6 +3,8 @@ import {FaGithub,FaLinkedin} from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 export default function Contact() {
+    function formSubmit(formData) {
+    }
     return (
         <>
         <div>
@@ -18,7 +20,7 @@ export default function Contact() {
             </div>
             <div className="message-section md:w-5/12 w-11/12 mr-10">
                 <div>
-                    <form className=" flex flex-col gap-2 md:gap-4">
+                    <form className=" flex flex-col gap-2 md:gap-4" action={formSubmit}>
                         <label className="text-2xl md:text-3xl oswald-family">Name</label>
                         <input type="text" name="name" className="border-b-2 md:border-b-4 border-blue-400 focus:outline-none text-lg md:text-xl text-blue-400  oswald-family p-2"/>
                         <label className="text-2xl md:text-3xl oswald-family"> E-mail</label>
@@ -30,11 +32,10 @@ export default function Contact() {
                 </div>
              <div className="flex justify-center gap-10 mt-7">
             <a target="_blank" href="https://github.com/aniket-ah10"><FaGithub className="text-white text-4xl md:text-5xl hover:scale-85"/></a>
-            <FaLinkedin className="text-white text-4xl md:text-5xl hover:scale-85"/>
-            <MdEmail className="text-white text-4xl md:text-5xl hover:scale-85"/>
+                 <a target="_blank" href="https://www.linkedin.com/in/aniketah10"><FaLinkedin className="text-white text-4xl md:text-5xl hover:scale-85"/></a>
+                 <a target="_blank" href="mailto:aniketsinghah10@outlook.com"><MdEmail className="text-white text-4xl md:text-5xl hover:scale-85"/></a>
         </div>
         </div>
-            
         </div>
         </div>
         </div>

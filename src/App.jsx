@@ -26,7 +26,7 @@ function App() {
         <li><button onClick={()=>scrollToSection(homeRef)} className='nav-bt'>Home</button></li>
         <li><button onClick={()=>scrollToSection(aboutRef)}className='nav-bt'>About</button></li>
         <li><button onClick={()=>scrollToSection(skillRef)} className='nav-bt'>Skills</button></li>
-        <li><button onClick={()=>scrollToSection(projectRef)} className='nav-bt'>Project</button></li>
+          {/*<li><button onClick={()=>scrollToSection(projectRef)} className='nav-bt'>Project</button></li>*/}
         <li><button onClick={()=>scrollToSection(contactRef)} className='nav-bt'>Contact</button></li>
       </ul>
     </nav>
@@ -43,9 +43,9 @@ function App() {
       <Skill/>
     </section>
 
-  <section ref={projectRef} className='pt-20'>
+    {/*<section ref={projectRef} className='pt-20'>
       <Project/>
-    </section>
+    </section>*/}
 
     <section ref={contactRef} className='pt-20'>
       <Contact/>

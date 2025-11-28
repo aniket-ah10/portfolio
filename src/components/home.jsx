@@ -11,10 +11,10 @@ function Home() {
       <div className='intro-text text-3xl md:text-4xl lg:text-5xl'>&nbsp; I'm Aniket</div>
       </div>
       <div className='title-text lg:text-6xl md:text-5xl text-4xl mt-5 md:mt-7'>Web Developer</div>
-      
-      <button className='md:text-xl md:mt-10 mt-5 md:p-2 p-1 bg-gray-950 hover:bg-gray-700 border-2 border-blue-400'>
-      <a target="_blank" className='no-underline text-white'>
-        View Resume
+
+        <button className='md:text-xl md:mt-10 mt-5 md:p-2 p-1 bg-gray-950 hover:bg-gray-700 border-2 border-blue-400'>
+      <a target="_blank" className='no-underline text-white' href="https://www.linkedin.com/in/aniketah10">
+        LinkedIn
       </a>
       </button>
 
