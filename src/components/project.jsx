@@ -1,8 +1,8 @@
 import "../styles/project.css";
 import Projects from "./projects.jsx";
-import binoImg from "../assets/binoImg.png"
+/*import binoImg from "../assets/binoImg.png"
 import clockImg from "../assets/clockImg.png";
-import numImg from "../assets/numImg.png";
+import numImg from "../assets/numImg.png";*/
 
 export default function Project(){
     return(
@@ -17,7 +17,14 @@ export default function Project(){
       </div>
       </div>
       <div className="flex gap-10 ml-5 mr-5 mt-5 sm:ml-2 sm:mr-2 sm:mt-15 flex-wrap justify-center">
-      <Projects
+          <Projects
+              img={"./aniketsMusic.png"}
+              title="Music Player"
+              desc="This is My First Fullstack project that Plays Song"
+              github="https://github.com/aniket-ah10/Music_Frontend"
+              page="https://aniketsmusic.netlify.app"
+          />
+     {/* <Projects
       img={binoImg}
       title="Bino Page"
       desc="Watched Movies & Web Series Tracker"
@@ -37,7 +44,7 @@ export default function Project(){
       desc="Basic Number Operations Tool"
       github="https://github.com/aniket-ah10/num"
       page="https://aniket-ah10.github.io/clock/"
-      />
+      />*/}
     </div>
     </div>
     </div>
